@@ -1,0 +1,15 @@
+#contain{
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: repeat(10,20px);
+    grid-template-rows: repeat(10,20px);
+    grid-row-gap: 1px;
+    grid-column-gap: 1px;
+    justify-content: center;
+    padding:20px;
+
+}
+#contain>div{
+    background-color: cyan;
+    height: 20px;
+}
