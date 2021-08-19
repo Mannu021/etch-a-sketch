@@ -2,11 +2,53 @@
 <html>
 <head>
     <link rel="stylesheet" href="css.css" type="text/css"> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
 </head>
 <body>
-    <div id="contain">
+    <div id="aa"> 
+        <div id="a">
+            <p>Etch-a-Sketch</p>
+        </div>
+        <div id="b">
+            <div id=left>
+                <div id="up">
+                <form id="form1">
+                <p>Please select Grid size</p>
+                  <input type="radio" id="small" name="size" value="small">
+                  <label for="small">small</label><br>
+                  <input type="radio" id="medium" name="size" value="medium">
+                  <label for="medium">medium</label><br>
+                  <input type="radio" id="large" name="size" value="large">
+                  <label for="large">large</label>
+                </form>
+                </div>
+                <div id="down">
+                <form id="form2">
+                    <p>Please select Grid color</p>
+                      <input type="radio" id="black" name="color" value="black">
+                      <label for="black">black</label><br>
+                      <input type="radio" id="white" name="color" value="white">
+                      <label for="white">white</label><br>
+                      <input type="radio" id="rainbow" name="color" value="rainbow">
+                      <label for="rainbow">rainbow</label>
+                </form>
+                </div>
+            </div>
+            <div id=right>
+                <div id="container">
+                    <p>please choose color and size of Gride.</p>
+                </div>
+            </div>
+        </div>
+        <div id="c">
+            <div id=button>
+                <button id="play" onclick="play()">Play</button>
+                <button id="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
 
     </div>
-    <script src="js.js" type="text/javascript"></script>
+    <script src="js.js" type="text/javascript" ></script>
 </body>
 </html>
